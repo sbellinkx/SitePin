@@ -2,7 +2,6 @@
 *.xcuserstate
 xcuserdata/
 DerivedData/
-build/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
@@ -12,9 +11,20 @@ build/
 .AppleDouble
 .LSOverride
 
-# CocoaPods (if used in future)
+# CocoaPods
 Pods/
 
 # Swift Package Manager
 .build/
 .swiftpm/
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+
+# Kotlin
+.kotlin/

@@ -1,0 +1,3 @@
+-keep class com.sitepinapp.data.model.** { *; }
+-keep class * extends androidx.room.RoomDatabase
+-keep @androidx.room.Entity class *
