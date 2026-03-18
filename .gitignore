@@ -1,0 +1,20 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CocoaPods (if used in future)
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
